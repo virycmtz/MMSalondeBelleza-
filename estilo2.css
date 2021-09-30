@@ -1,0 +1,66 @@
+.flex-center{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+#FONDO{
+	width:1350px ;
+	height: 600px ;
+	background-image: url(FONDO.JPG);
+}
+
+body{
+	font-family: arial, helvetica;
+	background: #d8f8e1;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 16px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:#ef8354 ;
+}
+
+.text {
+	aling-text:center;
+    width:300px
+    height:  200px;
+    background-color: transparent;
+    padding: 20px;
+    color: #2a39b2;
+    position: absolute;
+    z-index: 1;
+}
+ 
+.background {
+    width: 400px;
+    height: 200px;
+    background-color: A79AFF;
+    padding: 10px;
+    margin: 0px 0px 10px 0px
+}
+ 
+.trans {
+    opacity: 0.4;
+}
+
+	
